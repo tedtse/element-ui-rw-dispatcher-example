@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
       <router-link to="/global-conf">GlobalConf</router-link> |
       <router-link to="/local-conf">LocalConf</router-link>
     </div>

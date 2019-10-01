@@ -3010,10 +3010,10 @@ electron-to-chromium@^1.3.247:
   resolved "http://npm.xiepeng.cc/electron-to-chromium/-/electron-to-chromium-1.3.265.tgz#d69afa05a33e551b913a9798f072a6442f46b348"
   integrity sha1-1pr6BaM+VRuROpeY8HKmRC9Gs0g=
 
-element-ui-rw-dispatcher@^0.0.0-alpha.3:
-  version "0.0.0-alpha.3"
-  resolved "http://npm.xiepeng.cc/element-ui-rw-dispatcher/-/element-ui-rw-dispatcher-0.0.0-alpha.3.tgz#3e3bcccdb5a12fdea97ffaf6708e513a73a8ccbf"
-  integrity sha512-KU7NEBzDy6fPlXj1Bob1z2NSulDwnQdf6Ef5gLKzxSxVf/53ogy1JxeLtvOUnx6Oi1FyKFXuuA31/tUKWfUK7w==
+element-ui-rw-dispatcher@^0.0.0-alpha.4:
+  version "0.0.0-alpha.4"
+  resolved "http://npm.xiepeng.cc/element-ui-rw-dispatcher/-/element-ui-rw-dispatcher-0.0.0-alpha.4.tgz#ac3d21dc2e33f53e7d086556c0b6223a094714da"
+  integrity sha512-eP6KdM7HL06cSQ1ep7PdsYXwbcWsbCCNVOoyKylwTDyjv+YUL3X+K1HoMRWCyMhWF0gwpQKH9LhLBeVN/QCirQ==
   dependencies:
     change-case "^3.1.0"
     lodash "^4.17.15"

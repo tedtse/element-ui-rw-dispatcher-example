@@ -1,6 +1,11 @@
 .elm-container {
   text-align: left;
-  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px 5px #00000010;
+  padding: 40px 20px;
+  width: 768px;
+  margin: 20px auto;
   .el-rate, .el-rate__icon {
     height: 40px;
     line-height: 40px;
