@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.12.0",
-    "element-ui-rw-dispatcher": "^0.1.0-beta",
+    "element-ui-rw-dispatcher": "^0.1.0-beta.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
