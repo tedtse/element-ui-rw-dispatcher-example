@@ -1,4 +1,4 @@
-### Demos of element-ui-dispatcher
+### Demos of element-ui-rw-dispatcher
 
 - [基本用法](./base)
 
