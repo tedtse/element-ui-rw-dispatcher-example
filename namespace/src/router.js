@@ -9,8 +9,23 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('./views/Home.vue')
+      redirect: '/edit'
+    },
+    {
+      path: '/edit',
+      name: 'edit',
+      component: () => import('./views/Form.vue'),
+      meta: {
+        state: 'write'
+      }
+    },
+    {
+      path: '/detail',
+      name: 'detail',
+      component: () => import('./views/Form.vue'),
+      meta: {
+        state: 'read'
+      }
     }
   ]
 })

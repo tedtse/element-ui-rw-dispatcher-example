@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <div id="nav">
+      <router-link to="/edit">编辑</router-link> |
+      <router-link to="/detail">详情</router-link>
+    </div>
     <router-view/>
   </div>
 </template>

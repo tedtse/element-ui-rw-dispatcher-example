@@ -45,10 +45,6 @@
       <el-form-item label="活动形式">
         <el-input-dispatcher type="textarea" v-model="form.desc" />
       </el-form-item>
-      <div style="text-align: right">
-        <el-button v-show="rwDispatcherState === 'write'" type="primary" size="small" @click="toggleState">编辑</el-button>
-        <el-button v-show="rwDispatcherState === 'read'" type="primary" size="small" @click="toggleState">详情</el-button>
-      </div>
     </el-form>
   </div>
 </template>
@@ -57,12 +53,11 @@
 export default {
   provide () {
     return {
-      rwDispatcherProvider: this
+      myNsProvider: this
     }
   },
   data () {
     return {
-      rwDispatcherState: 'write',
       form: {
         name: '618电器折扣日',
         level: 5,
@@ -77,14 +72,12 @@ export default {
       }
     }
   },
+  computed: {
+    myNsState () {
+      return this.$route.meta.state
+    }
+  },
   methods: {
-    toggleState () {
-      if (this.rwDispatcherState === 'write') {
-        this.rwDispatcherState = 'read'
-      } else {
-        this.rwDispatcherState = 'write'
-      }
-    },
     formatTooltip (val) {
       return val + '天'
     }
