@@ -3010,14 +3010,14 @@ electron-to-chromium@^1.3.247:
   resolved "http://npm.xiepeng.cc/electron-to-chromium/-/electron-to-chromium-1.3.265.tgz#d69afa05a33e551b913a9798f072a6442f46b348"
   integrity sha1-1pr6BaM+VRuROpeY8HKmRC9Gs0g=
 
-element-ui-rw-dispatcher@^0.0.0-alpha.2:
-  version "0.0.0-alpha.2"
-  resolved "http://npm.xiepeng.cc/element-ui-rw-dispatcher/-/element-ui-rw-dispatcher-0.0.0-alpha.2.tgz#31087ce80b6fe25d1cd330af7e1d9e4b73755823"
-  integrity sha512-R1MA2ElCvWgcvRjq+niO5iEdffQBhB3ERzWxtos0Ip6VAHrlShVFFAtRKc/hXZCVjpBY567l+SU4T3msIM8hOw==
+element-ui-rw-dispatcher@^0.1.0-beta.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/element-ui-rw-dispatcher/-/element-ui-rw-dispatcher-0.1.1.tgz#325869c52f8e0c1d1131c1444fcba86b113457ba"
+  integrity sha512-Q5asUo5CGjAor6h/62vn0lFofn4moR5+mqwJOSo+8V/z4zsxqAmmXu4kuNwle5PTHLGNOWMUU4PJiuV2KftqOg==
   dependencies:
     change-case "^3.1.0"
     lodash "^4.17.15"
-    rw-dispatcher-helper "^0.0.0-alpha"
+    rw-dispatcher-helper "^0.1.0-beta"
 
 element-ui@^2.12.0:
   version "2.12.0"
@@ -6777,9 +6777,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "http://npm.xiepeng.cc/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -7083,7 +7083,7 @@ require-uncached@^1.0.3:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "http://npm.xiepeng.cc/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 reselect@^3.0.1:
@@ -7194,10 +7194,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rw-dispatcher-helper@^0.0.0-alpha:
-  version "0.0.0-alpha"
-  resolved "http://npm.xiepeng.cc/rw-dispatcher-helper/-/rw-dispatcher-helper-0.0.0-alpha.tgz#82afcd6c1c4b56f93ab5a1e99587c4033e09d0f5"
-  integrity sha512-a+ewl3gTNdOKZlpFtVqnqZcz/T73DuKEJkKKNLLiTOiKJaGWWDCBJ8d3PmGDWbfvOKRzqMPWjSnv48EU7+EBLw==
+rw-dispatcher-helper@^0.1.0-beta:
+  version "0.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/rw-dispatcher-helper/-/rw-dispatcher-helper-0.1.0-beta.1.tgz#4b0b43a2ca41b14c6b2cc46ff26018092c143ebc"
+  integrity sha512-UL/G59I2hRZfvHhEdl3YyDlZQ5x5iMycSmdnyvz5bzPXRkMHgF3ymw/baREyJHqCkM4MmPQq+h7WFnrRIsRzgQ==
   dependencies:
     "@types/lodash" "^4.14.137"
     "@types/uuid" "^3.4.5"
@@ -8282,9 +8282,9 @@ url-loader@^1.1.2:
     schema-utils "^1.0.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "http://npm.xiepeng.cc/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha1-qKg1NejACjFuQDpdtKwbm4U64ng=
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
