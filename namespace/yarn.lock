@@ -3010,14 +3010,14 @@ electron-to-chromium@^1.3.247:
   resolved "http://npm.xiepeng.cc/electron-to-chromium/-/electron-to-chromium-1.3.265.tgz#d69afa05a33e551b913a9798f072a6442f46b348"
   integrity sha1-1pr6BaM+VRuROpeY8HKmRC9Gs0g=
 
-element-ui-rw-dispatcher@^0.0.0-alpha.2:
-  version "0.0.0-alpha.2"
-  resolved "http://npm.xiepeng.cc/element-ui-rw-dispatcher/-/element-ui-rw-dispatcher-0.0.0-alpha.2.tgz#31087ce80b6fe25d1cd330af7e1d9e4b73755823"
-  integrity sha512-R1MA2ElCvWgcvRjq+niO5iEdffQBhB3ERzWxtos0Ip6VAHrlShVFFAtRKc/hXZCVjpBY567l+SU4T3msIM8hOw==
+element-ui-rw-dispatcher@^0.1.0-beta.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/element-ui-rw-dispatcher/-/element-ui-rw-dispatcher-0.1.1.tgz#325869c52f8e0c1d1131c1444fcba86b113457ba"
+  integrity sha512-Q5asUo5CGjAor6h/62vn0lFofn4moR5+mqwJOSo+8V/z4zsxqAmmXu4kuNwle5PTHLGNOWMUU4PJiuV2KftqOg==
   dependencies:
     change-case "^3.1.0"
     lodash "^4.17.15"
-    rw-dispatcher-helper "^0.0.0-alpha"
+    rw-dispatcher-helper "^0.1.0-beta"
 
 element-ui@^2.12.0:
   version "2.12.0"
@@ -7194,10 +7194,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rw-dispatcher-helper@^0.0.0-alpha:
-  version "0.0.0-alpha"
-  resolved "http://npm.xiepeng.cc/rw-dispatcher-helper/-/rw-dispatcher-helper-0.0.0-alpha.tgz#82afcd6c1c4b56f93ab5a1e99587c4033e09d0f5"
-  integrity sha512-a+ewl3gTNdOKZlpFtVqnqZcz/T73DuKEJkKKNLLiTOiKJaGWWDCBJ8d3PmGDWbfvOKRzqMPWjSnv48EU7+EBLw==
+rw-dispatcher-helper@^0.1.0-beta:
+  version "0.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/rw-dispatcher-helper/-/rw-dispatcher-helper-0.1.0-beta.1.tgz#4b0b43a2ca41b14c6b2cc46ff26018092c143ebc"
+  integrity sha512-UL/G59I2hRZfvHhEdl3YyDlZQ5x5iMycSmdnyvz5bzPXRkMHgF3ymw/baREyJHqCkM4MmPQq+h7WFnrRIsRzgQ==
   dependencies:
     "@types/lodash" "^4.14.137"
     "@types/uuid" "^3.4.5"
@@ -7413,9 +7413,9 @@ shebang-regex@^1.0.0:
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
 shell-quote@^1.6.1:
-  version "1.7.2"
-  resolved "http://npm.xiepeng.cc/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
-  integrity sha1-Z6fQLHbJ2iT5nSCAj8re0ODgS+I=
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
+  integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
